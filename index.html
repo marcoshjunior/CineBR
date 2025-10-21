@@ -12,14 +12,17 @@
   </head>
   <body>
     <header>
-      <p><i class="fa-solid fa-film"></i>Cinema Brasileiro</p>
-      <nav>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Filmes</a></li>
-          <li><a href="#">Curiosidades</a></li>
-        </ul>
+      <div class="logo"><i class="fa-solid fa-film"></i>Cinema Brasileiro</div>
+      <nav id="menu">
+        <a href="#inicio">Início</a>
+        <a href="#filmes">Filmes</a>
+        <a href="#curiosidades">Curiosidades</a>
       </nav>
+      <div class="menu-btn" id="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </header>
     <!--Foto de <a href="https://unsplash.com/pt-br/@jeremyyappy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeremy Yap</a> na <a href="https://unsplash.com/pt-br/fotografias/turned-on-projector-J39X2xX_8CQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
       -->
@@ -97,4 +100,21 @@
       </p>
     </footer>
   </body>
+  <script>
+    const menuBtn = document.getElementById("menu-btn");
+    const nav = document.getElementById("menu");
+    const links = nav.querySelectorAll("a");
+
+    // Abre/fecha o menu ao clicar no hambúrguer
+    menuBtn.addEventListener("click", () => {
+      nav.classList.toggle("active");
+    });
+
+    // Fecha o menu ao clicar em qualquer link
+    links.forEach((link) => {
+      link.addEventListener("click", () => {
+        nav.classList.remove("active");
+      });
+    });
+  </script>
 </html>
