@@ -119,6 +119,7 @@ section#inicio {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 69px;
   h1 {
     font-size: 1.4em;
     color: var(--texto-principal);
@@ -128,5 +129,80 @@ section#inicio {
     margin-top: 15px;
     text-align: center;
     color: var(--texto-secundario);
+  }
+}
+
+section#filmes {
+  margin: auto;
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  h2 {
+    color: var(--cor-destaque);
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid var(--bordas);
+  }
+  .filme-caixa {
+    background-color: var(--navbar-cards-filmes);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%; /*talvez não precise*/
+      object-fit: cover;
+      margin: auto;
+    }
+    .filme-desc {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      h3 {
+        color: var(--cor-destaque);
+        margin: 10px 0px;
+      }
+      .filme-sobre {
+        color: var(--descricao-filmes);
+        margin: 10px 0px;
+      }
+      .filme-diretor {
+        color: var(--descricao-filmes);
+        margin: 10px 0px;
+        span {
+          color: var(--labels-sociais);
+        }
+      }
+      .filme-elenco {
+        color: var(--descricao-filmes);
+        margin: 10px 0px;
+        span {
+          color: var(--labels-sociais);
+        }
+      }
+      .onde-assistir {
+        display: flex;
+        flex-direction: row;
+        gap: 7px;
+        margin: 10px 0px;
+        span {
+          color: var(--labels-sociais);
+          margin-right: 5px;
+          padding-top: 7px;
+        }
+        p {
+          background-color: var(--bordas);
+          padding: 7px;
+          border-radius: 20px;
+          color: var(--cor-destaque);
+          border: 1px solid var(--cor-destaque);
+        }
+      }
+    }
   }
 }

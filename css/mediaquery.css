@@ -2,4 +2,18 @@
   section#inicio p {
     width: 50%;
   }
+
+  section#filmes .filme-caixa {
+    flex-direction: row;
+    img {
+      width: 300px;
+    }
+    .filme-desc {
+      padding: 30px;
+      justify-content: center;
+      .filme-sobre {
+        width: 75%;
+      }
+    }
+  }
 }
