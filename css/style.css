@@ -1,3 +1,20 @@
+:root {
+  --fundo-do-site: #09090b;
+  --navbar-cards-filmes: #18181b;
+  /*logo, icones tituloFilmes, hoverBotoes e links, streaming*/
+  --cor-destaque: #eab308;
+  /*textos*/
+  --texto-principal: #f4f4f5;
+  --titulo-hero: #ffffff;
+  --texto-secundario: #e4e4e7;
+  --descricao-filmes: #d4d4d8;
+  --labels-sociais: #a1a1aa;
+  /*bordas*/
+  --bordas: #27272a;
+  --gradiente: rgba(0, 0, 0, 0.6);
+  --gradiente2: rgba(0, 0, 0, 0.7);
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -43,7 +60,6 @@ header {
     }
   }
 }
-
 /* Botão hambúrguer */
 .menu-btn {
   display: none;
