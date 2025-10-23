@@ -16,4 +16,19 @@
       }
     }
   }
+
+  section#curiosidades {
+    .curiosidades {
+      flex-direction: row;
+      gap: 44px;
+      margin: auto;
+      width: 90%;
+      .info-curi {
+        margin-top: 0px;
+      }
+    }
+    .premiacoes {
+      margin-bottom: 0px;
+    }
+  }
 }

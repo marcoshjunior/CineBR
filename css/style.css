@@ -149,6 +149,7 @@ section#filmes {
     background-color: var(--navbar-cards-filmes);
     width: 90%;
     margin: auto;
+    margin-bottom: 35px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -201,6 +202,68 @@ section#filmes {
           border-radius: 20px;
           color: var(--cor-destaque);
           border: 1px solid var(--cor-destaque);
+        }
+      }
+    }
+  }
+}
+
+section#curiosidades {
+  background-color: var(--navbar-cards-filmes);
+  padding-top: 80px;
+  h2 {
+    color: var(--cor-destaque);
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  .curiosidades {
+    display: flex;
+    flex-direction: column;
+    .info-curi {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 40px;
+      h3 {
+        color: var(--texto-secundario);
+        margin-bottom: 20px;
+        i {
+          color: var(--cor-destaque);
+          margin-right: 7px;
+        }
+      }
+      p {
+        color: var(--texto-secundario);
+        background-color: var(--fundo-do-site);
+        padding: 17px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: 2px solid var(--bordas);
+      }
+    }
+    .premiacoes {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 80px;
+      h3 {
+        color: var(--texto-secundario);
+        margin-bottom: 20px;
+        i {
+          color: var(--cor-destaque);
+          margin-right: 7px;
+        }
+      }
+      .premiacao {
+        background-color: var(--fundo-do-site);
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: 2px solid var(--bordas);
+        h4 {
+          color: var(--cor-destaque);
+          margin-bottom: 14px;
+        }
+        p {
+          color: var(--texto-secundario);
         }
       }
     }
