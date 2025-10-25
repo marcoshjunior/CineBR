@@ -199,11 +199,11 @@ section#filmes {
         span {
           color: var(--labels-sociais);
           margin-right: 5px;
-          padding-top: 7px;
+          padding-top: 3px;
         }
         p {
           background-color: var(--bordas);
-          padding: 7px;
+          padding: 3px 8px;
           border-radius: 20px;
           color: var(--cor-destaque);
           border: 1px solid var(--cor-destaque);

@@ -31,4 +31,8 @@
       margin-bottom: 0px;
     }
   }
+
+  footer div p {
+    width: 800px;
+  }
 }
