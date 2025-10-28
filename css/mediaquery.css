@@ -36,3 +36,8 @@
     width: 800px;
   }
 }
+@media screen and (max-width: 768px) {
+  section#inicio p {
+    width: 80%;
+  }
+}
